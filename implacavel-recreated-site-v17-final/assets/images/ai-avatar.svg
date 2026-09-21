@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="IMPLACÁVEL AI">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4d95e"/><stop offset="1" stop-color="#a88710"/></linearGradient></defs>
+<circle cx="32" cy="32" r="29" fill="#0c0c0b" stroke="#6f5a13"/>
+<path d="M32 9v7" stroke="url(#g)" stroke-width="2.2" stroke-linecap="round"/><circle cx="32" cy="7" r="2.4" fill="#e4c13a"/>
+<rect x="14" y="18" width="36" height="28" rx="9" fill="#11110f" stroke="url(#g)" stroke-width="2"/>
+<circle cx="25" cy="32" r="4" fill="#070707" stroke="#e4c13a"/><circle cx="39" cy="32" r="4" fill="#070707" stroke="#e4c13a"/>
+<circle cx="25" cy="32" r="1.5" fill="#fff8cf"/><circle cx="39" cy="32" r="1.5" fill="#fff8cf"/>
+<path d="M24 40c2.5 2.2 5.2 3.1 8 3.1s5.5-.9 8-3.1" fill="none" stroke="#e4c13a" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M14 28h-4M54 28h-4" stroke="#6f5a13" stroke-width="2" stroke-linecap="round"/>
+</svg>

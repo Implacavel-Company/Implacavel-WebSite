@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="IMPLACÁVEL — Growth, Inteligência de Negócios e Soluções Estratégicas B2B.">
+  <meta property="og:title" content="IMPLACÁVEL — Estratégia em operação.">
+  <meta property="og:description" content="Growth, BI, tecnologia e performance integrados em uma única operação.">
+  <title>IMPLACÁVEL — Estratégia em operação.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Serif+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="site-noise" aria-hidden="true"></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+  <div class="cursor-crosshair" id="cursorCrosshair" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="IMPLACÁVEL - início">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>IMPLACÁVEL</span>
+      </a>
+
+      <nav class="primary-nav" id="primaryNav" aria-label="Navegação principal"></nav>
+
+      <div class="header-actions">
+        <label class="language-wrap" aria-label="Idioma">
+          <select id="languageSelect">
+            <option value="PT">PT</option>
+            <option value="EN">EN</option>
+          </select>
+        </label>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar tema" aria-pressed="false">
+          <span class="theme-glyph theme-glyph-moon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M20.3 15.2A8.7 8.7 0 0 1 8.8 3.7a8.7 8.7 0 1 0 11.5 11.5Z"/></svg>
+          </span>
+          <span class="theme-glyph theme-glyph-sun" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"/></svg>
+          </span>
+        </button>
+        <a class="button button-gold button-header" href="#contact" data-scroll="contact" id="headerProject">INICIAR PROJETO</a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==================== CABECALHO / NAVEGACAO ==================== -->
+  <main id="app"><section class="js-fallback" aria-live="polite"><div class="container"><div class="eyebrow"><span class="line"></span>IMPLACÁVEL</div><h1>Inteligência implacável em <span>estratégia.</span><br>para quem governa o mercado.</h1><p>Growth, Inteligência de Negócios, tecnologia e soluções estratégicas B2B em uma única operação.</p><div class="hero-actions"><a class="button button-gold" href="#contact">INICIAR PROJETO →</a><a class="button" href="#solutions">CONHECER SOLUÇÕES</a></div><div class="fallback-links"><a href="#about">SOBRE</a><a href="#solutions">SOLUÇÕES</a><a href="#technology">TECNOLOGIA</a><a href="#cases">CASES</a><a href="#team">EQUIPE</a><a href="#contact">CONTATO</a></div></div></section></main>
+
+  <!-- ==================== RODAPE / INFORMACOES ==================== -->
+  <footer class="site-footer" id="footer"></footer>
+
+  <!-- ==================== AGENTE AI / ASSISTENTE FLUTUANTE ==================== -->
+  <button class="ai-orbit" id="chatFab" type="button" aria-label="Abrir IMPLACÁVEL AI" aria-controls="chatPanel" aria-expanded="false">
+    <span class="ai-spark" aria-hidden="true"><img src="assets/images/ai-avatar.svg" alt=""></span>
+  </button>
+
+  <aside class="chat-panel" id="chatPanel" hidden aria-label="IMPLACÁVEL AI">
+    <div class="chat-head">
+      <div class="chat-head-main">
+        <span class="chat-mini-orb" aria-hidden="true"><img src="assets/images/ai-avatar.svg" alt=""></span>
+        <div>
+          <span class="chat-kicker"><span class="status-dot"></span> IMPLACÁVEL AI</span>
+          <small id="chatSubtitle">ASSISTENTE ESTRATÉGICO · CONTEXTO DE NEGÓCIO · RESPOSTAS CONTEXTUAIS.</small>
+        </div>
+      </div>
+      <button id="chatClose" type="button" aria-label="Fechar chat">×</button>
+    </div>
+    <div class="chat-body" id="chatBody">
+      <div class="chat-suggestions-toggle"><button type="button" id="chatSuggestionsToggle" aria-expanded="true" aria-controls="quickActions">SUGESTÕES</button></div>
+      <div class="quick-actions" id="quickActions">
+      <button type="button">Conhecer os serviços</button>
+      <button type="button">Preciso aumentar minhas vendas</button>
+      <button type="button">Quero automatizar minha operação</button>
+      <button type="button">Preciso desenvolver um sistema</button>
+      <button type="button">Quero falar com a equipe</button>
+    </div>
+    </div>
+    <form class="chat-input" id="chatForm">
+      <input id="chatInput" autocomplete="off" placeholder="Digite sua mensagem..." aria-label="Mensagem">
+      <button type="submit" aria-label="Enviar mensagem"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11.8 20 4l-5.1 16-3.2-6.3L4 11.8Z"/><path d="m11.7 13.2 4.4-4.5"/></svg></button>
+    </form>
+    <div class="chat-demo-note" id="chatDemoNote">ASSISTENTE DIGITAL · CONTEXTO DA IMPLACÁVEL.</div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script>
+    /* ==================== CONFIGURAÇÃO OFICIAL / PREENCHER FUTURAMENTE ==================== */
+    /*
+      CAMPOS VAZIOS NÃO QUEBRAM O SITE.
+      PREENCHA COM OS DADOS OFICIAIS QUANDO EXISTIREM.
+      WHATSAPP: NÚMERO REAL DA EMPRESA.
+      formEndpoint: ENDPOINT REAL PARA ENVIO DO FORMULÁRIO.
+      companyEmail: E-MAIL OFICIAL, SE NECESSÁRIO.
+      aiEndpoint: ENDPOINT DA IA REAL, SE FOR CONECTADA.
+      github/facebook/linkedin: LINKS OFICIAIS DAS REDES.
+    */
+    window.IMPLACAVEL_CONFIG = {
+      whatsapp: '',
+      formEndpoint: '',
+      companyEmail: '',
+      aiEndpoint: '',
+      socials: {
+        instagram: 'https://www.instagram.com/implacavel.mkt/',
+        github: '',
+        facebook: '',
+        linkedin: ''
+      }
+    };
+    /* ==================== FIM DA CONFIGURAÇÃO OFICIAL ==================== */
+  </script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>
